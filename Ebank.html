@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="ebank.css">
+    <title>Farabank</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"><a href="index.html"><img src="/images/logo/dollar.png" alt="logo"></a>
+                <p>Fara<span style="color:gold">Bank</span></p>
+            </div>
+            <div class="nav-items"><a href="index.html">Home</a></div>
+            <div class="nav-items"><a href="about.html">About Us</a></div>
+            <div class="nav-items"><a href="product.html">Product & Services</a></div>
+            <div class="nav-items"><a href="Ebank.html">E-banking</a></div>
+            <div class="nav-items"><a href="contact.html">Contacts</a></div>
+            <div class=" nav-items login"><a href="#">Logout</a></diV>
+
+        </div>
+        <!-- End of navbar -->
+        <!-- deposit page begins -->
+        <div class="deposit-page">
+            <h2>Deposit Slip</h2>
+            <hr>
+            <div class="form-details">
+                <label for="">Account Number</label>
+                <input type="text">
+                <label for="">Account Name</label>
+                <input type="text">
+                <label for="">Password</label>
+                <input type="password">
+                <select name="Accounts" id="account">
+                    <option value="select account" selected="selected">Select account type</option>
+                    <option value="savings account">Savings Account</option>
+                    <option value="current account"> Current Account</option>
+                </select>
+                <label for="">Deposit amount</label>
+                <input type="text" id="cash">
+                <div class="btn">
+                    <div class="btn1">
+                        Deposit
+                    </div>
+                </div>
+            </div>
+            <script src="index.js"></script>
+</body>
+
+</html>
